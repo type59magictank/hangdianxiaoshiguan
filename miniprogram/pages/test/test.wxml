@@ -1,0 +1,41 @@
+<view class='top_bottomView'>
+<scroll-view scroll-x class="scroll-x" scroll-with-animation="{{true}}">
+<block wx:for="{{list}}" wx:key="{{index}}">
+<view class="view-item {{clickNumber==index?'item-active':''}}" bindtap='centerTap' data-cs='{{index}}'>
+{{item}}
+</view>
+</block>
+</scroll-view>
+</view>
+<!-- 内容区 -->
+<swiper style="swiper-slide" bindchange='changeSwipe' current='{{clickNumber}}' class='swiper-slide'>
+<swiper-item wx:for="{{list}}" wx:key="index">
+    <view class='test-class' wx:if="{{index < 23}}">
+    <image src="/pics/sucai/{{list[index]}}.jpg" mode="widthFix"  class="slide-image">
+    </image>
+    </view>
+
+    <view wx:if="{{index == 23}}">
+    <view class="container">
+      <view class="userinfo-block">
+        <open-data type="userAvatarUrl" class="user-avatar"></open-data>
+        <open-data type="userNickName" class="user-nickname"></open-data>
+      </view>
+    </view>
+  <view>感谢您的使用</view>
+  <navigator url='/pages/moreinfo/moreinfo'>
+    <view class="version-info">版本信息:0.0.2 beta</view>
+  </navigator>
+  <navigator url='/pages/main/main'>
+  <button>
+    <view>返回主页</view>
+  </button>
+  </navigator>
+  </view>
+
+</swiper-item>
+</swiper>
+
+<navigator>
+  <button><image class="add_icon" src="/pics/adicon.png"></image></button>
+</navigator>

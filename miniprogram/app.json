@@ -1,0 +1,19 @@
+{
+  "pages": [
+    "pages/main/main",
+    "pages/index/index",
+    "pages/runpage/runpage",
+    "pages/map/map",
+    "pages/runpa/runpa",
+    "pages/moreinfo/moreinfo",
+    "pages/test/test"
+  ],
+  
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "杭电校史馆",
+    "navigationBarTextStyle": "black"
+  },
+  "sitemapLocation": "sitemap.json"
+}

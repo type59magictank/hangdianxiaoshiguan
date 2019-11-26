@@ -1,0 +1,14 @@
+<!--miniprogram/pages/users/users.wxml-->
+<view>
+ <!-- 用户 openid -->
+  <view class="container">
+    <view class="userinfo-block">
+    <open-data type="userAvatarUrl" class="user-avatar"></open-data>
+    <open-data type="userNickName" class="user-nickname"></open-data>
+    </view>
+  </view>
+  <navigator url='../users/moreinfo/moreinfo'>
+    <view class="version-info">版本信息:1.0.0</view>
+  </navigator>
+  
+</view>

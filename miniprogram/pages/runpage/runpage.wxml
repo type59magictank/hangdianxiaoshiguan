@@ -1,0 +1,28 @@
+<page >
+<swiper class="wrap-swiper"indicator-dots="{{indicatorDots}}"
+ autoplay="{{autoplay}}" interval="{{interval}}" duration="{{duration}}"circular="true"easing-function="easeInOutCubic">
+
+  <swiper-item>
+<image style="width: 100%; height: 100%; background-color: #eeeeee;" mode="widthFix" src="../../pics/background.jpg" mode="aspectFill"></image>
+<text>2333</text><view>65464</view>
+  </swiper-item>
+
+  <swiper-item style="background:url('../../pics/background.jpg');background-size:100% 600px;">
+  <view>65464</view>
+  </swiper-item>
+
+<swiper-item style="background:url('../../pics/background.jpg');background-size:100% 600px;">
+  <view>979416531</view>
+  <navigator url="../main/main">
+  <button class="buttoninfo" type="primary">
+  <view>回到主页</view>
+  </button>
+  </navigator>
+  <navigator url="../users/users">
+  <button class="buttoninfo" type="warn">
+  <view>更多信息</view>
+  </button>
+  </navigator>
+  </swiper-item> 
+</swiper>
+</page>

@@ -1,0 +1,19 @@
+<view class="content">
+    <!--pics文件夹下的background.jpg文件-->
+    <image class='background' src="../../pics/1.jpg" mode="aspectFill"></image>
+    <!--页面其它部分-->
+</view>
+<view class="animated infinite">
+<view class="container">
+<text class="text-1">历史进程当中的杭电</text>
+</view>
+</view>
+<view class="animated infinite jello">
+<view class="container">
+<navigator url="/pages/test/test">
+<button class="buttoninfo">
+<view>开始</view>
+</button>
+</navigator>
+</view>
+</view>

@@ -1,0 +1,19 @@
+{
+  "backgroundTextStyle": "light",
+  "navigationBarkgroundColor": "#fff",
+  "navigationBarTitleText": "用户页面",
+  "navigationBarTextStyle": "black",
+  
+    "tabBar": {
+      "list": [
+        {
+          "pagePath": "pages/index/index",
+          "text": "首页"
+        },
+        {
+          "pagePath": "pages/users/users",
+          "text": "用户"
+        }
+      ]
+    }
+}

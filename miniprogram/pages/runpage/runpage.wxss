@@ -1,0 +1,26 @@
+/* miniprogram/pages/run-page/run-page.wxss */
+.swiper{
+  width: 100%;
+  margin: 0 auto;
+  margin-top: 20%;
+  padding-top: 25px;
+}
+  .wrap{
+  display: flex;
+  justify-content: space-around;
+  margin-top: 25px;
+}
+.wrap-swiper{
+  background:  #f6f6f6 ;
+  padding-bottom: 25px;
+  margin-left: 0px;
+  margin-right: 0px;
+    height:1200rpx;
+}
+.buttoninfo{
+  background-color: #fff;
+  margin-top: 20rpx;
+}
+.swiper-item {
+  height: auto !important;
+}

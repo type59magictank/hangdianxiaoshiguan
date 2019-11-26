@@ -1,0 +1,106 @@
+.top_bottomView {
+  display: flex;
+}
+
+.scroll-x {
+  height: 56rpx;
+  width: 100%;
+  background: #fff0ee;
+  white-space: nowrap;
+  /* display: flex;i */
+  box-sizing: border-box;
+  overflow: hidden;
+}
+/* 隐藏scrollbar */
+::-webkit-scrollbar {
+  width: 0;
+  height: 0;
+  color: transparent;
+}
+
+.view-item {
+  width: 30%;
+  /* height: 62rpx; */
+  display: inline-block;
+  text-align: center;
+  font-size: 30rpx;
+  color: rgb(0, 0, 0);
+  opacity: 0.6;
+}
+.item-active {
+  color: rgb(255, 0, 0);
+  opacity: 1;
+  font-size: 32rpx;
+}
+
+.top_rightView {
+  position: relative;
+  background: #ec4c3d;
+  width: 10%;
+  height: 62rpx;
+  right: 0;
+}
+
+.top_rightImage {
+  position: absolute;
+  left: 20rpx;
+  top: 20rpx;
+  height: 32rpx;
+  width: 32rpx;
+}
+.swiper-slide {
+    height: 1335rpx;
+    width: 100%;
+}
+.slide-image{
+    width: 100%;
+}
+
+.userinfo-block {
+  margin-top: 40rpx;
+  height: 200rpx;
+  width: 100%;
+  background: #fff;
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  border-left: none;
+  border-right: none;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  transition: all 300ms ease;
+  justify-content: center;
+}
+
+.user-avatar{
+  width: 160rpx;
+  height: 160rpx;
+  display: block;
+  border-radius: 50%;
+  overflow:hidden;
+}
+
+.user-nickname{
+  margin-left: 50rpx;
+  font-size: 40rpx;
+}
+
+.version-info{
+  margin-top: 100rpx;
+  margin-left: 50rpx; 
+  font-size: 36rpx;
+
+}
+
+.add_icon{
+
+  position: fixed;
+
+  width:100rpx;
+
+  height:100rpx;
+
+bottom: 60rpx;
+
+right: 40rpx;
+
+}
