@@ -1,10 +1,6 @@
 {
   "pages": [
     "pages/main/main",
-    "pages/index/index",
-    "pages/runpage/runpage",
-    "pages/map/map",
-    "pages/runpa/runpa",
     "pages/moreinfo/moreinfo",
     "pages/test/test"
   ],

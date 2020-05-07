@@ -31,7 +31,7 @@ Page({
   },
 
   onLoad: function () {
-    console.log("route = ", this.route);
+    
   },
 
 })
