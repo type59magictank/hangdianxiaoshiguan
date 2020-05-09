@@ -1,5 +1,6 @@
 <!--pages/moreinfo/moreinfo.wxml-->
 <view>0.0.1 beta版本：图片展示功能</view>
 <view>0.0.2 beta版本：顶部导航栏</view>
+<view>0.0.21 beta版本：图片转为在线，增加分辨率</view>
 <view>下一步会加入音频和细分类</view>
 <view>假如微信支持nfc贴片读取会支持一碰讲解功能</view>
