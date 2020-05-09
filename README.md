@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # 云开发 quickstart
 
 这是云开发的快速启动指引，其中演示了如何上手使用云开发的三大基础能力：
@@ -10,3 +11,8 @@
 
 - [云开发文档](https://developers.weixin.qq.com/miniprogram/dev/wxcloud/basis/getting-started.html)
 
+=======
+杭电校史馆--微信小程序
+采用微信开发者工具 本地2.6.1开发（更新至2.11.0）
+demo 0.0.2beta 20191126
+>>>>>>> 0545521f99b998022e8ac1eebe4b07818a7e2837
